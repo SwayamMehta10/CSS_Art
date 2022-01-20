@@ -1,0 +1,109 @@
+body {
+  background: #1E3B67;
+}
+.band {
+  background-color: transparent;
+  height: 200px;
+  width: 900px;
+  display: flex;
+  margin: auto;
+}
+#left {
+  border-width: 2px 0px 2px 2px;
+  border-style: solid;
+  border-radius: 20% 0px 0px 20%;
+  background-image: linear-gradient(#B8B8C4, #D3D3DB);
+}
+#center {
+  border-width: 2px 0px;
+  border-style: solid;
+  background-image: linear-gradient(#B8B8C4, #D3D3DB);
+}
+#right {
+  border-width: 2px 2px 2px 0px;
+  border-style: solid;
+  border-radius: 0px 20% 20% 0px;
+  background-image: linear-gradient(#B8B8C4, #D3D3DB);
+}
+.balls {
+  background-color: grey;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+  position: relative;
+}
+#one {
+  left: 70px;
+  top: 20px;
+}
+#two {
+  left: -10px;
+  top: 85px;
+}
+#three {
+  left: 8px;
+  top: 150px;
+}
+#four {
+  left: 140px;
+  top: 20px;
+}
+#five {
+  left: 160px;
+  top: 85px;
+}
+#six {
+  left: 78px;
+  top: 150px;
+}
+.sand {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+#top {
+  border-width: 5px;
+  border-style: solid;
+  height: 10px;
+  width: 100px;
+  top: 20px;
+  left: 130px;
+}
+#upper {
+  border-width: 5px 5px 0px 5px;
+  border-style: solid;
+  height: 30px;
+  width: 100px;
+  top: 45px;
+  left: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+#middle-left {
+  border-width: 0px 5px 0px 0px;
+  border-style: solid;
+  border-radius: 50%;
+  height: 55px;
+  width: 35px;
+  top: 77px;
+  left: -109px;
+}
+#middle-right {
+  border-width: 0px 0px 0px 5px;
+  border-style: solid;
+  border-radius: 50%;
+  height: 55px;
+  width: 35px;
+  top: 77px;
+  left: -42px;
+}
+#lower {
+  border-width: 0px 5px 5px 5px;
+  border-style: solid;
+  height: 30px;
+  width: 100px;
+  top: 129px;
+  left: -170px;
+  border-radius: 10px 10px 0px 0px;
+}
